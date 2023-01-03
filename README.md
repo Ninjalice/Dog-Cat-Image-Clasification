@@ -1,6 +1,6 @@
 # DOG & CAT CLASIFICATOR<br>
 
-Createdo usando Python<br><br>
+Creado usando Python<br><br>
 
 ![alt text](project_image.jpg)
 
