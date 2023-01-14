@@ -1,4 +1,4 @@
-# DOG & CAT CLASIFICATOR<br>
+# DOG & CAT CLASSIFIER<br>
 
 Creado usando Python<br><br>
 
