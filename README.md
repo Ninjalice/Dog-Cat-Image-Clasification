@@ -1,49 +1,49 @@
 # DOG & CAT CLASSIFIER<br>
 
-Clasificador de imágenes de perros y gatos utilizando técnicas de extracción de características y modelos de clasificación basados en aprendizaje automático.<br><br>
+Dog and cat image classifier using feature extraction techniques and machine learning based classification models.<br><br>
 
 ![alt text](project_image.jpg)
 
-## Extractores de caracteristicas usados:
+## Used feature extractors:
 
 ## Extractor 1 :
-Este método de extracción de características consiste en:
+This method of feature extraction consists of:
 
-1. Dividir la imagen en celdas tamaño NxN
-2. Asignar a cada píxel vecino valores de 0 o 1 dependiendo de la intensidad
-3. Usar los valores de los vecinos para hacer un número en binario y asignar ese color al pixel central
-4. Una vez hecho eso con todos calculas un histograma por celda
+1. split the image into NxN sized cells 
+2. Assign each neighbouring pixel a value of 0 or 1 depending on the intensity.
+3. Using the neighbour values to make a binary number and assigning that colour to the central pixel.
+4. Once you have done that with everyone calculate a histogram per cell.
 
-#### Resultados: 
-| Dataset         | Precision     |  Tiempo de ejecucución |
+#### Results: 
+| Dataset | Accuracy | Run Time |
 |--------------|-----------|------------|
-| "cat_dog_100" | 95%     | 16.30 segundos       |
-| "cat_dog_500"     | 92,5% | 4 minutos 26.28 segundos      |
+| "cat_dog_100" | 95% | 16.30 seconds |
+| "cat_dog_500" | 92.5% | 4 minutes 26.28 seconds |
 
 
 ## Extractor 2 :
-Este método de extracción de características involucra tres pasos: 
+This feature extraction method involves three steps: 
 
-1. Aplicar filtros de convolución para calcular la magnitud y orientación del gradiente.
-2. Dividir la imagen en bloques disjuntos y crear histogramas para cada bloque 
-3. Normalizar los histogramas. 
+1. Apply convolution filters to calculate the magnitude and orientation of the gradient.
+2. Divide the image into disjoint blocks and create histograms for each block. 
+3. Normalise the histograms. 
 
 
-#### Resultados: 
-| Dataset         | Precision     |  Tiempo de ejecucución |
+#### Results: 
+| Dataset | Accuracy | Run Time |
 |--------------|-----------|------------|
-| "cat_dog_100" | 92,5%| 16.46 segundos       |
-| "cat_dog_500"     | 90% | 1 minutos 27.68 segundos      |
+| "cat_dog_100" | 92.5%| 16.46 seconds |
+| "cat_dog_500" | 90% | 1 minutes 27.68 seconds |
 
-## Clasificador usado:
+## Classifier used:
 
-SVM de Scikit-learn
+Scikit-learn SVM
 
 https://scikit-learn.org/stable/modules/svm.html
 
 
 ---
-# Videos explicativos:
+## Explanatory videos (In Spanish):
 
 ## Video
 [![VIDEO](http://img.youtube.com/vi/89BA7UG2XS8/0.jpg)](https://www.youtube.com/watch?v=89BA7UG2XS8 "Video")
@@ -53,6 +53,6 @@ https://scikit-learn.org/stable/modules/svm.html
 
 
 ---
-Creado por Odei H. y Endika A.  2022-2023
+Created by Odei H. and Endika A. 2022-2023
 
 
