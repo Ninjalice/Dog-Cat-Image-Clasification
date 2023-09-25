@@ -48,7 +48,7 @@ https://scikit-learn.org/stable/modules/svm.html
 ## Video
 [![VIDEO](http://img.youtube.com/vi/89BA7UG2XS8/0.jpg)](https://www.youtube.com/watch?v=89BA7UG2XS8 "Video")
 
-## Video Codigo
+## Code Video
 [![VIDEO](http://img.youtube.com/vi/PlR-ZUXZUCc/0.jpg)](https://www.youtube.com/watch?v=PlR-ZUXZUCc "Video2")
 
 
